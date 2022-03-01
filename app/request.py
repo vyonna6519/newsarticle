@@ -121,7 +121,7 @@ def get_sources_articles(id):
 
         get_sources_article_url = sources_article_base_url.format(id,api_key)
 
-        with urllib.request.urlopen(get_headlines_url) as url:
+        with urllib.request.urlopen ("get_headlines_url") as url:
                 get_headlines_data = url.read()
                 get_headlines_response = json.loads(get_headlines_data)
 
