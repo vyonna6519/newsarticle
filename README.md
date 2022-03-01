@@ -4,8 +4,12 @@
 
 ## Description
 This is an application that will help people list and preview news articles from various sources. 
-The website will show news articles from several sources and news sources that a user can click to see more news in realtime. 
+The website will show news articles from several sources and news sources that a user can click to see more news in realtime.
+
 ## Screenshot
+![Screenshot from 2022-03-01 21-09-40](https://user-images.githubusercontent.com/93370913/156224797-5131b0ac-8edb-4e93-a967-b0aeb05a7234.png)
+![Screenshot from 2022-03-01 21-09-46](https://user-images.githubusercontent.com/93370913/156224837-7587a449-ab1b-4db9-8835-c676f16272fd.png)
+
 
 ## User Stories
 These are the features that the application implements for use by a user.
