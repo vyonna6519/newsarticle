@@ -9,7 +9,7 @@ class HeadlinesTest(unittest.TestCase):
         '''
         Set up method that will run before every Test
         '''
-        self.new_headline = Headline('Victor Kibocha','Kyrsten Sinema Declared War Winner','Ms. Sinema scored a ground breaking victory','www.news.com','www.sinema123.com', '2018-9-12-13T00:50:04Z', 'If one of the biggest themes...' )
+        self.new_headline = Headline('Vyonna Njenga','Kyrsten Sinema Declared War Winner','Ms. Sinema scored a ground breaking victory','www.news.com','www.sinema123.com', '2018-9-12-13T00:50:04Z', 'If one of the biggest themes...' )
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_headline,Headline))

@@ -60,7 +60,7 @@ def process_results(headlines_list):
         return headlines_results
                         
 def get_headline():
-        get_headline_details_url = headlines_base_url.format(apiKey)
+        get_headline_details_url = headlines_base_url.format('apiKey')
         with urllib.request.urlopen(get_headline_details_url) as url:
                 headline_details_data = url.read()
                 headline_details_response = json.loads(headline_details_data)
